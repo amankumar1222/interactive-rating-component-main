@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    /* border: 2px solid white; */
+    width: 380px;
+    height: 400px;
+    background: hsl(213, 19%, 18%);
+    border-radius: 25px;
+   padding: 25px;
+   /* display: none; */
+
+}
+
+.start img{
+ margin: 15px 0px;
+ background-color: hsl(214, 16%, 25%);
+ padding: 12px;
+ border-radius: 50%;
+} 
+.heading h1{
+    margin: 10px 0px;
+    color: hsl(0, 0%, 100%);
+}
+.para p{
+    margin: 12px 0px;
+    color: hsl(217, 12%, 63%);
+}
+.numbers{
+    display: flex;
+   justify-content: space-between;
+}
+.numbers div{
+   background: hsl(214, 16%, 25%);
+   padding: 12px 17px;
+   border-radius: 50%;
+   margin: 20px 0px;
+   color: hsl(217, 12%, 63%);
+   cursor: pointer;
+    /* border: 2px solid gray; */
+
+}
+.click{
+    color: #fff;
+    background: hsl(25, 97%, 53%);
+}
+#btn{
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #fff;
+    color: hsl(25, 97%, 53%);
+}
+.submit{
+    width: 380px;
+    height: 400px;
+    background: hsl(213, 19%, 18%);
+    border-radius: 25px;
+    /* border: 2px solid white; */
+    padding: 25px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   display: none;
+   position: relative;
+}
+.img{
+    text-align: center;
+    margin: 20px;
+
+}
+.active{
+    background-color: hsla(25, 94%, 51%, 0.973) !important;
+    /* color: hsl(217, 7%, 78%); */
+    font-weight: bold;
+    color: #fff !important;
+}
+.show{
+  display: flex;
+  justify-content: center;
+}
+.heading h1{
+    margin: 25px 0px  0px 0px ;
+}
+.show p{
+    background-color: hsl(213, 7%, 25%);
+    padding: 8px 20px;
+    border-radius: 45px;
+    color: hsl(25, 97%, 53%);
+    opacity: .8;
+}
+p{
+    font-size: 15px;
+}
+
+
+
+/* responsive style sheet  */
+
+@media screen and (max-width: 546px) {
+ 
+    .container{
+        width: 90%;
+        margin: 0px 20px;
+        /* height: 50%; */
+    }
+  }
